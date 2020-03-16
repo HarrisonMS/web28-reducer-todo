@@ -37,6 +37,12 @@ export const todoReducer = (currentState, action) => {
         // if true spread in the tdo with the key completed toggled with ! to opposite of whatever it was set to
         // if the todo id does not equal the action.payload return todo
       }
+    case 'CLEAR_COMPLETED':
+      return {
+        ...currentState,
+        todoList: currentState.todoList.filter((todo) => !todo.completed)
+        // filter throught todolist array and creates a new array that match or pass the test beigh !todo.completed so if it hasnt been completed it will be returned
+      };
       default: return currentState;
   } 
 }
