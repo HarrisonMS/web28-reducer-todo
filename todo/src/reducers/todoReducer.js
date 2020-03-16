@@ -17,6 +17,18 @@ export const initialState = {
         },
    ]
 };
-export const todoReducer = (state, action) => {
-  return state;
+export const todoReducer = (currentState, action) => {
+  switch (action.type) {
+    case 'ADD_TODO':
+      const newTodo = {
+        item: action.payload,
+        completed: false,
+        id: Date.now()
+      }
+      return {
+        ...currentState,
+        todoList: [...currentState.todoList, newTodo]
+      }
+      default: return currentState;
+  } 
 }
