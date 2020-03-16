@@ -1,7 +1,7 @@
-import { addTodo } from './addTodo'
-import { clearCompleted } from './clearCompleted'
-import { toggleCompleted } from './toggleCompleted'
+// import { addTodo } from './addTodo'
+// import { clearCompleted } from './clearCompleted'
+// import { toggleComplete } from './toggleCompleted'
 
-export {addTodo}
-export {clearCompleted}
-export {toggleCompleted}
+// export {addTodo}
+// export {clearCompleted}
+// export {toggleComplete}

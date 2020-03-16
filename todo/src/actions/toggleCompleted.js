@@ -1,3 +1,3 @@
-export const toggleCompleted = () => {
-  dispatchEvent({type: 'TOGGLE_COMPLETED', payload: todo})
-}
+// export const toggleComplete = todo => {
+//   dispatchEvent({type: 'TOGGLE_COMPLETED', payload: todo})
+// }

@@ -1,3 +1,3 @@
-export const addTodo = () => {
-  dispatchEvent({type: 'ADD_TODO', payload: todo})
-}
+// export const addTodo = todo => {
+//   dispatchEvent({type: 'ADD_TODO', payload: todo})
+// }
