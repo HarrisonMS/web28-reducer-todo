@@ -1,3 +1,3 @@
 export const clearCompleted = () => {
-  dispatchEvent({type: 'ADD_TODO', payload:todo})
+  dispatchEvent({type: 'CLEAR_COMPLETED', payload:todo})
 }
