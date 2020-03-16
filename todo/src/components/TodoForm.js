@@ -8,9 +8,12 @@ const TodoForm = (props) => {
 	const handleChange = (e) => setItem(e.target.value);
 
 	const handleSubmit = (e) => {
-		e.preventDefault();
-		addTodo(item);
-		setItem('');
+    e.preventDefault();
+    const checkedItem = item.trim();
+    {!item.length ?
+    alert('got to insert the todo to do the to do.. do that and the todo should do what you want it to do') : 
+    addTodo(checkedItem);
+		setItem('');}
 	};
 
 	const handleClear = (e) => {

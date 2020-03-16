@@ -11,7 +11,7 @@ function App() {
 	const toggleTodo = (id) => {
 		dispatch({ type: 'TOGGLE_TODO', payload: id });
 	};
-	const clearTodo = (id) => {
+	const clearTodo = () => {
 		dispatch({ type: 'CLEAR_COMPLETED' });
 	};
 

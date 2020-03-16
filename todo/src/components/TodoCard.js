@@ -10,4 +10,4 @@ const TodoCard = (props) => {
 		</div>
 	);
 };
-export default Todo;
+export default TodoCard;

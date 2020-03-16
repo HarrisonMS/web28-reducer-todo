@@ -57,7 +57,7 @@ h1 {
   margin: 16px auto;
 }
 .completed {
-  background-color:rgb(104, 11, 11);
+  background-color:rgb(255, 0, 0);
   color: black;
   text-decoration-line: line-through;
   
