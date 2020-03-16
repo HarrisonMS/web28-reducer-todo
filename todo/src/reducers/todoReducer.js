@@ -16,4 +16,7 @@ export const initialState = {
           id: Date.now()
         },
    ]
+};
+export const todoReducer = (state, action) => {
+  return state;
 }
