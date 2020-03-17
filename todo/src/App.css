@@ -1,0 +1,130 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+}
+
+body {
+  background: rgb(0,0,0);
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span {
+  font-weight: 900 ;
+  color: rgb(43, 255, 0);
+}
+p{
+  font-size: 20px;
+}
+
+.App {
+  text-align: center;
+  padding: 0 36px;
+  margin: 0 auto;
+  
+
+}
+
+.header {
+  text-align: center;
+}
+.buttonWrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: left;
+    justify-content: space-between;
+}
+h1 {
+  text-align: left;
+}
+
+.todoList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 16px auto;
+}
+.completed {
+  background-color:rgb(255, 0, 0);
+  color: black;
+  text-decoration-line: line-through;
+  
+  
+}
+form {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+form > input {
+  font-size: 30px;
+  background-color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 0;
+  font-size: 1rem;
+  width: 240px;
+  outline: 0;
+  color: black;
+  border-bottom: 1px solid red;
+  margin-right: 8px;
+  border: 1px solid black;
+  font-weight: 600;
+}
+
+button {
+  background-color: black;
+  border: 1px solid rgb(43, 255, 0);
+  border-radius:10px;
+  color: rgb(43, 255, 0);
+  font-size: 16px;
+  padding: 6px 10px;
+  margin-left:10px;
+  width: fit-content
+ 
+}
+
+input::placeholder {
+  color: black;
+}
+.label{
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  
+  
+}
+.button2 {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .buttonWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .formWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}
